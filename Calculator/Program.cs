@@ -16,7 +16,7 @@ class Program
         int tempint1 = Convert.ToInt32(num1_double);
         int tempint2 = Convert.ToInt32(num2_double);
         int sdvig = tempint1 << tempint2;
-        int sdvigpr = temp1 >> tempint2;
+        int sdvigpr = tempint1 >> tempint2;
         Console.WriteLine($"Сложение: {num1_double} + {num2_double} = {num1_double + num2_double}");
         Console.WriteLine($"Вычитание: {num1_double} - {num2_double} = {num1_double - num2_double}");
         Console.WriteLine($"Умножение: {num1_double} * {num2_double} = {num1_double * num2_double}");
@@ -37,4 +37,5 @@ class Program
         Console.WriteLine($"Сдвиг вправо: {tempint1} >> {tempint2} = {sdvigpr}");
         Console.WriteLine($"Логическая инверсия: !({tempbool1} == {tempbool2}) = !{tempbool1 == tempbool2}");
     }
+
 }
